@@ -5,11 +5,9 @@ Home: http://mlg.ulb.ac.be
 
 Package license: GPL-3.0-or-later
 
-Feedstock license: BSD 3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-unbalanced-feedstock/blob/master/LICENSE.txt)
 
 Summary: A dataset is said to be unbalanced when the class of interest (minority class) is much rarer than normal behaviour (majority class). The cost of missing a minority class is typically much higher that missing a majority class. Most learning systems are not prepared to cope with unbalanced data and several techniques have been proposed. This package implements some of most well-known techniques and propose a racing algorithm to select adaptively the most appropriate strategy for a given unbalanced task.
-
-
 
 Current build status
 ====================
@@ -38,6 +36,7 @@ Installing `r-unbalanced` from the `conda-forge` channel can be achieved by addi
 
 ```
 conda config --add channels conda-forge
+conda config --set channel_priority strict
 ```
 
 Once the `conda-forge` channel has been enabled, `r-unbalanced` can be installed with:
@@ -108,9 +107,9 @@ build distinct package versions.
 
 In order to produce a uniquely identifiable distribution:
  * If the version of a package **is not** being increased, please add or increase
-   the [``build/number``](https://conda.io/docs/user-guide/tasks/build-packages/define-metadata.html#build-number-and-string).
+   the [``build/number``](https://docs.conda.io/projects/conda-build/en/latest/resources/define-metadata.html#build-number-and-string).
  * If the version of a package **is** being increased, please remember to return
-   the [``build/number``](https://conda.io/docs/user-guide/tasks/build-packages/define-metadata.html#build-number-and-string)
+   the [``build/number``](https://docs.conda.io/projects/conda-build/en/latest/resources/define-metadata.html#build-number-and-string)
    back to 0.
 
 Feedstock Maintainers
