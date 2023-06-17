@@ -1,11 +1,11 @@
-About r-unbalanced
-==================
+About r-unbalanced-feedstock
+============================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-unbalanced-feedstock/blob/main/LICENSE.txt)
 
 Home: http://mlg.ulb.ac.be
 
 Package license: GPL-3.0-or-later
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-unbalanced-feedstock/blob/main/LICENSE.txt)
 
 Summary: A dataset is said to be unbalanced when the class of interest (minority class) is much rarer than normal behaviour (majority class). The cost of missing a minority class is typically much higher that missing a majority class. Most learning systems are not prepared to cope with unbalanced data and several techniques have been proposed. This package implements some of most well-known techniques and propose a racing algorithm to select adaptively the most appropriate strategy for a given unbalanced task.
 
